@@ -1,0 +1,12 @@
+
+.image .image-banner{
+    color: #212121;
+    background: url(../image/usa-jianbian.png) repeat-x transparent left top;
+
+}
+.country-regnant{
+    background:  #afdfef;
+}
+.country-regnant p:first-child{
+    background: url("../image/usa-tou.png") no-repeat left top;
+}

@@ -1,0 +1,23 @@
+
+.image{
+    position: relative;
+}
+.image .image-banner{
+    background: url(../image/渐变.png) repeat-x transparent left top;
+}
+
+.image .image-banner p{
+    font-family: 华文仿宋;
+    color: #fff;
+}
+.image .image-layout{
+    position: absolute;
+    right: 0px;
+    top: -60px;
+}
+.country-regnant{
+    background: #ff6666;
+}
+.country-regnant p:first-child{
+    background: url("../image/canada-tou.png") no-repeat 1px 1px;
+}

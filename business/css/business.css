@@ -1,0 +1,480 @@
+.wrapper{
+    background: #FFFFFF;
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+input{
+    outline: none;
+}
+.fl{
+    float: left;
+    display: inline;
+}
+
+.fr{
+    float: right;
+    display: inline;
+}
+.layout{
+    width: 1170px;
+    margin: 0px auto;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝头部＝＝＝＝＝＝＝＝＝＝＝＝＝＝css*/
+.header{
+    height: 93px;
+    background: url(../image/logo.png) no-repeat left center transparent;
+}
+.nav li{
+    line-height: 93px;
+    float: left;
+    display: inline;
+}
+.nav a{
+    font-size: 13.5px;
+    color: #7b7b7b;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    background: #ffbb42;
+    color: #FFFFFF;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝内容＝＝＝＝＝＝＝＝css*/
+/*＝＝＝＝＝＝内容banner＝＝＝＝＝*/
+.banner{
+    text-align: center;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+
+}
+.banner-layout{
+    height: 590px;
+    width: 100%;
+    background: #709dca;
+}
+.banner-message{
+    padding: 110px 40px 0px 40px;
+
+}
+.banner-message p{
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.banner-message-title{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.banner-message-detail{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+input{
+    padding: 15px 0px 15px 43px;
+    width: 203px;
+    margin-right: 15px;
+    border-radius: 4px;
+    border: none;
+}
+.name{
+    background: url(../image/name.png)  no-repeat 11px 15px #fff;;
+}
+.email{
+    background: url(../image/email.png)  no-repeat 11px 15px #fff;;
+}
+.phone{
+    background: url(../image/phone.png)  no-repeat 11px 15px #fff;;
+
+}
+.quote{
+    padding: 15px 43px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #ffbb42;
+    border-radius: 4px;
+}
+.rotate{
+    position: absolute;
+    left: 25%;
+    top: 310px;
+}
+.arrow-left{
+    float:left;
+    position: relative;
+
+}
+.arrow-left1{
+    border: 5px solid transparent;
+    border-right: 10px solid #FFFFFF;
+}
+.arrow-left2{
+    border: 5px solid transparent;
+    border-right: 10px solid #709dca;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+.arrow-right{
+    float: right;
+    position: relative;
+}
+.arrow-right1{
+    border: 5px solid transparent;
+    border-left: 10px solid #FFFFFF;
+}
+.arrow-right2{
+    border: 5px solid transparent;
+    border-left: 10px solid #709dca;
+    right: 4px;
+    top: 0px;
+    position: absolute;
+}
+.arrow-left,.arrow-right{
+    position: relative;
+    top: 160px;
+    cursor: pointer;
+}
+.circle{
+    margin-top: 20px;
+}
+.circle li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #DEDEDE;
+    margin-right: 5px;
+}
+.circle li:hover{
+    border-color: #709dca;
+}
+/*＝＝＝内容service＝＝＝＝*/
+.service{
+    margin-top: 90px;
+}
+.service p{
+    color: #394b50;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.service-title{
+    font-size: 30px;
+}
+.service-subtitle{
+    font-size: 16px;
+}
+.service ul {
+    margin-top: 90px;
+
+}
+.service li p{
+    text-align: left;
+    padding: 0px 0px 0px 85px;
+    line-height: 22px;
+}
+.service ul li{
+    padding-bottom: 80px;
+    max-width: 550px;
+    float: left;
+    display: inline;
+    background: url(../image/service.png) no-repeat 38px top;
+}
+.list-item-title{
+    font-size: 16px;
+    color: #394b50;
+    margin-bottom: 20px;
+}
+/*＝＝＝＝＝＝＝内容about＝＝＝＝＝*/
+.about img{
+    width: 50%;
+    vertical-align: top;/*解决img下空隙*/
+}
+.about-text{
+    width: 50%;
+    background: #ffbb42;
+    height: 463px;
+}
+.about-text>div{
+    padding: 40px 90px 0px 55px;
+    color: #FFFFFF;
+}
+.about-text-title{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.about-text-detail{
+    line-height: 24px;
+    margin-top: 25px;
+}
+.about-text>div a{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    display: inline-block;
+    width: 145px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #e7ad48;
+    text-align: center;
+    cursor: pointer;
+}
+/*＝＝＝＝＝＝内容choose＝＝＝＝＝＝＝*/
+.choose{
+    text-align: center;
+    background: #e7edf3;
+    padding: 125px 0px 195px 0px;
+}
+
+.title{
+    font-size: 30px;
+    color: #394b50;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 18px;
+    color: #75888d;
+}
+.choose-item{
+    display: inline-block;
+    margin-top: 85px;
+    color: #818b95;
+}
+.choose-item li{
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    width: 385px;
+    height: 440px;
+    display: inline-block;
+    margin-right: 3px;
+    border-radius: 4px;
+}
+.choose-layout{
+    padding: 50px 30px;
+
+}
+.plan{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.price{
+    font-size: 60px;
+    color: #ffbb42;
+    position: relative;
+}
+.price span{
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+}
+.period{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.acount,
+.support,
+.customer{
+    font-size: 13.5px;
+    line-height: 40px;
+    border-top: 1px solid #e2e9f0;
+}
+.start{
+    padding: 15px 20px;
+    background: #ffbb42;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.choose-layout .start{
+    margin-top: 30px;
+    display: inline-block;
+}
+.choose-item li:hover{
+    transform: scale(1.1);
+    color: #FFFFFF;
+    background: #709dca;
+    transition: 1s;
+}
+/*＝＝＝＝内容steps＝＝＝＝＝＝*/
+.steps{
+    padding: 148px 30px;
+    text-align: center;
+}
+
+.step{
+    background: url(../image/steps.png) no-repeat left top;
+    min-height: 312px;
+    padding-top: 235px;
+    margin-right: -75px;
+}
+.step-text{
+    width: 235px;
+    height: 120px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 60px;
+}
+.step-text p:first-child{
+    margin-bottom: 25px;
+}
+/*＝＝＝＝＝内容clients＝＝＝＝＝＝*/
+.clients{
+    background: #ffbb42;
+}
+.client{
+    padding: 135px 0px 155px;
+    text-align: center;
+}
+.client{
+    line-height: 22px;
+}
+.client-title{
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+.client-text{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.client-person{
+    margin-top: 60px;
+    margin-right: -35px;
+}
+.person{
+    width: 565px;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: left;
+}
+.first{
+    background: url(../image/touxiang.png) no-repeat left 40px #FFFFFF;
+}
+.second{
+    background: url(../image/touxiang.png) no-repeat left 40px #FFFFFF;
+}
+.third{
+    background: url(../image/touxiang.png) no-repeat left 40px #FFFFFF;
+}
+.forth{
+    background: url(../image/touxiang.png) no-repeat left 40px #FFFFFF;
+}
+.person-layout{
+    padding:45px 50px 50px 160px;
+}
+
+.person-name{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.person-name span{
+    color: #f6772c;
+}
+/*＝＝＝＝内容newsletter＝＝＝＝＝*/
+.newsletter{
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+    line-height: 22px;
+    color: #394b50;
+}
+.newsletter-title{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.newsletter-detail{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.newsletter input,
+.newsletter a{
+    border:1px solid #DEDEDE;
+}
+.newsletter .image{
+    border: none;
+}
+.address{
+    margin-top: 90px;
+    background: url(../image/map.png) no-repeat top left transparent;
+    height: 615px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.address-layout{
+    padding-top: 90px;
+    background: url(../image/yuan.png) no-repeat center 40px transparent;
+    height: 255px;
+}
+.address-title{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.detail-address{
+    color: #aeb7ba;
+    line-height: 24px;
+}
+.address-email{
+    color: #f6772c;
+    line-height: 24px;
+}
+.content-footer{
+    text-align: center;
+}
+.content-footer ul{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.content-footer a:hover{
+    background: none;
+    color: #7b7b7b;
+}
+.content-footer p{
+    font-size: 23px;
+    color: #394b50;
+    background: url(../image/phone.png) no-repeat 42% center;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝脚部css＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    background: #709dca;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

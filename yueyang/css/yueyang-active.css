@@ -1,0 +1,76 @@
+.yueyang-active{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 180px;
+    text-align: left;
+
+}
+
+.yueyang-active .form-layout{
+    width: 350px;
+    height: 25px;
+    line-height: 25px;
+    box-shadow: 1px 1px 1px #dedede;
+    border-radius: 4px;
+    border: 1px solid #dedede;
+    padding-left: 15px;
+}
+.yueyang-active-left{
+    width: 105px;
+    min-height: 390px;
+}
+.yueyang-active-left p+p{
+    margin-top: 26px;
+}
+.yueyang-active-right{
+    position: relative;
+    top: -10px;
+}
+.yueyang-active-right >input[type="text"]{
+    margin-bottom: 10px;
+}
+.yueyang-active-right >p{
+    margin-bottom: 20px;
+}
+.yueyang-active label{
+    margin-right: 10px;
+}
+.yueyang-active-right a{
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background: #dbdddd;
+    color: #005a88;
+}
+.yueyang-active-right a span{
+    margin-left: 25px;
+    display: inline-block;
+    width: 22px;
+    height: 13px;
+    color: #666666;
+    line-height: 14px;
+    text-align: center;
+    text-shadow: 2px 0px 2px #fff;
+    box-shadow: 0px 2px 3px #504B4B inset;
+    background: #ccc;
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+}
+.yueyang-active-right a:hover{
+    background: #005a88;
+    color:#fff ;
+}
+.yueyang-active-right a:hover > span{
+    color: #fff;
+    border: 1px solid #2F5F88;
+    box-shadow: 0px 2px 3px #11283C inset;
+    background: -webkit-linear-gradient(top,#1F405D,#005a88);
+}
+.yueyang-active-right a:last-child{
+    margin-left: 78px;
+}

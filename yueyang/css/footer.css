@@ -1,0 +1,14 @@
+
+/*＝＝＝＝＝＝＝＝＝＝＝脚部 css＝＝＝＝＝＝＝＝＝＝＝*/
+
+.footer{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #666666;
+    padding-top: 25px;
+}
+.footer p{
+    margin-bottom: 10px;
+}

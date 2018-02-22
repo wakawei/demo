@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #1d3d56;
+        }
+        .ball-box{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            perspective: 3000px;
+        }
+        @-webkit-keyframes myrotate {
+            0%{ transform: rotateZ(30deg) rotateY(0deg) ;}
+            100%{ transform: rotateZ(30deg) rotateY(360deg) ;}
+        }
+        @-moz-keyframes myrotate{
+            0%{ transform: rotateZ(30deg) rotateY(0deg) ;}
+            100%{ transform: rotateZ(30deg) rotateY(360deg) ;}
+        }
+
+        @-ms-keyframes myrotate{
+            0%{ transform: rotateZ(30deg) rotateY(0deg) ;}
+            100%{ transform: rotateZ(30deg) rotateY(360deg) ;}
+        }
+        .ball{
+            height: 100%;
+            transform-style: preserve-3d;
+            -webkit-animation:myrotate 30s infinite linear ;
+                -moz-animation:myrotate 30s infinite linear ;
+                 -ms-animation:myrotate 30s infinite linear ;
+
+        }
+        .ball:after{
+            content: "";
+            display: block;
+            width: 1px;
+            height: 500px;
+            background: #E84A01;
+            position: absolute;
+            top: -100px;
+            left: 150px;
+
+        }
+        .ball>div{
+            border: 1px solid #FFFFFF;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+        .ball .line1{  transform: rotateY(0deg);  }
+        .ball .line2{  transform: rotateY(36deg);  }
+        .ball .line3{  transform: rotateY(72deg);  }
+        .ball .line4{  transform: rotateY(108deg);  }
+        .ball .line5{  transform: rotateY(144deg);  }
+
+    </style>
+</head>
+<body>
+    <div class="ball-box">
+        <div class="ball">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+
+        </div>
+    </div>
+</body>
+</html>

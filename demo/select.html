@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul{
+            list-style-type: none;
+            background-color: #FFFFFF;
+            width: 100%;
+            /*overflow-y: auto;*/
+            /*max-height: 0px;*/
+            position: absolute;
+            top: 40px;
+            display: none;
+            left: 0px;
+        }
+        .select ul li{
+            padding: 0px 15px;
+            line-height: 40px;
+            cursor: pointer;
+        }
+        body,ul,p{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: #0c9;
+            color: #333;
+        }
+        .content{
+            padding-top: 5%;
+        }
+        .content .select{
+            width: 300px;
+            height: 40px;
+            margin: 0 auto;
+            font-size: 16px;
+            background-color: #fff;
+            position: relative;
+        }
+        .content .select:after{
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-left: 1px solid #757575;
+            border-bottom: 1px solid #757575;
+            right: 12px;
+            top: 11px;
+            transform: rotate(-45deg);
+        }
+        .select p{
+            padding: 0px 15px;
+            line-height: 40px;
+            cursor:pointer;
+        }
+        .select ul li:hover{
+            background-color: #cccccc;
+        }
+        .selected{
+            background-color: #24c1f6;
+            color: #FFFFFF;
+        }
+        .select:hover ul{
+            display: block;
+        }
+
+
+        /*＝＝＝＝＝＝＝＝通过JQuery体现箭头旋转以及ul下拉列表显示的交互效果＝＝＝＝＝＝＝＝＝*/
+        .content .open:hover:after{
+            transform: rotate(-225deg);
+            top:18px;
+        }
+
+        /*.content .open ul{*/
+            /*max-height: 250px;*/
+        /*}*/
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <div class="select open">
+            <p>所有选项</p>
+            <ul>
+                <li  data-value="所有选项" class="selected">所有选项</li>
+                <li  data-value="html">html</li>
+                <li  data-value="css">css</li>
+                <li  data-value="javascript">javascript</li>
+                <li  data-value="jQuery">jQuery</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

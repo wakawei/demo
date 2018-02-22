@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .radio-1{
+            width: 800px;
+            padding: 3% 0;
+            margin: 0px auto;
+            text-align: center;
+            background-color: #4ec6ae;
+        }
+        input[type="radio"]{
+            display: none;
+        }
+       .radio-1 label{
+            width: 28px;
+            height: 28px;
+            border: 1px solid #cccccc;
+            display: inline-block;
+            background-color:#FFFFFF;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 100%;
+            position: relative;
+        }
+        label:after{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 20px;
+            top: 4px;
+            left: 4px;
+            background-color: #212121;
+            border-radius: 50%;
+            -webkit-transform:scale(0);
+            transition: transform .2s ease-out;
+        }
+        [type="radio"]:checked + label{
+            background-color: #F65872;
+            /*transition: background-color .2s ease-in;*/
+        }
+        [type="radio"]:checked + label:after{
+            -webkit-transform: scale(1);
+            /*transition: transform .2s ease-in;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="radio-1">
+        <input type="radio" name="radio-1" id="radio-1-1" checked="checked">
+        <label for="radio-1-1"></label>
+
+        <input type="radio" name="radio-1" id="radio-1-2">
+        <label for="radio-1-2"></label>
+
+        <input type="radio" name="radio-1" id="radio-1-3">
+        <label for="radio-1-3"></label>
+    </div>
+</body>
+</html>

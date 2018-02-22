@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #dcdcdc;
+        }
+        .wrapper{
+
+        }
+        .wrapper p{
+            text-align: center;
+            font-size: 32px;
+            margin: 30px;
+        }
+        ul{
+            position: relative;
+            list-style-type: none;
+            width: 170px;
+            padding: 5px 0px;
+            line-height: 35px;
+            border-radius: 5px;
+            margin: 100px auto;
+            background: -webkit-linear-gradient(top,#666666,#999);
+        }
+        ul li{
+            padding-left: 20px;
+            position: relative;
+            z-index: 2;
+
+
+        }
+        li a{
+            color: #000000;
+            text-decoration: none;
+            text-shadow: 0px 1px 1px #e0e0e0;
+            font-weight: bold;
+        }
+        ul li:hover a{
+            color: #fff;
+        }
+        ul li:hover ~.effect{
+            transition: 0.5s;
+        }
+        ul li:nth-child(1):hover ~.effect{
+            top: 8px;
+        }
+
+        ul li:nth-child(2):hover ~.effect{
+            top: 43px;
+        }
+
+        ul li:nth-child(3):hover ~.effect{
+            top: 78px;
+        }
+
+        ul li:nth-child(4):hover ~.effect{
+            top: 113px;
+        }
+
+        ul li:nth-child(5):hover ~.effect{
+            top: 148px;
+        }
+
+        ul li:nth-child(6):hover ~.effect{
+            top: 183px;
+        }
+        .effect{
+            width: 200px;
+            height: 30px;
+           background: -webkit-linear-gradient(top,#ff3f3f,#a50000);
+            position: absolute;
+            left: -15px;
+            top: 8px;
+        }
+        .sub-effect{
+            position: relative;
+            width: 100%;
+        }
+        .effect:before,.effect:after{
+            position: absolute;
+            content: "";
+            top: 100%;
+            width: 0;
+            height: 0;
+            border: 4px solid transparent;
+        }
+        .effect:before{
+            border-color:#920000 #920000 transparent transparent;
+            left: 0px;
+        }
+        .effect:after{
+            border-color: #920000 transparent transparent  #920000;
+            right: 0px;
+        }
+        .sub-effect:before,.sub-effect:after{
+            content: "";
+            width: 0px;
+            height: 0px;
+            border: 14px solid;
+            border-color: #ff1515 #ff1515 #920000 #ff1515;
+            position: absolute;
+            top: 10px;
+            z-index: -1;
+        }
+        .sub-effect:before{
+            left: -20px;
+            border-left-color: transparent;
+        }
+        .sub-effect:after{
+            right: -20px;
+            border-right-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <p>menu 效果展示</p>
+        <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">JSP</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">sass</a></li>
+            <li><a href="#">ruby</a></li>
+            <li><a href="#">mongo</a></li>
+            <div class="effect">
+                <div class="sub-effect"></div>
+            </div>
+        </ul>
+    </div>
+
+</body>
+</html>

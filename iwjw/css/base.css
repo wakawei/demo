@@ -1,0 +1,172 @@
+
+/*==================重用型CSS开始=================*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.fl{
+    float: left;
+    display: inline;
+}
+.fr{
+    float: right;
+    display: inline;
+
+}
+caption{
+    text-align: left;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.fs18{
+    font-size: 18px;
+}
+.fs14{
+    font-size: 14px;
+}
+.fs16{
+    font-size: 16px;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs24{
+    font-size: 24px;
+}
+.fs26{
+    font-size:26px;
+}
+.fs44{
+    font-size: 44px;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs32{
+    font-size: 32px;
+}
+.layout{
+    background-color: #F7F7F7;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+i{
+    font-style: normal;
+}
+.inline-block{
+    display: inline-block;
+}
+.mglef160{
+    margin-left: 160px;
+}
+.mgright{
+    margin-right: 60px;
+}
+.wrapper{
+    margin: 0px auto;
+    font-family: sans-serif;
+    width: 1200px;
+}
+.red{
+    color: #E84A01;
+}
+.bgcwhite{
+    background-color: #fff;
+}
+.colorbd{
+    color: #BDBDBD;
+}
+.color75{
+    color: #757575;
+}
+.black{
+    color: #212121;
+}
+.pt24{
+    padding-top: 24px;
+}
+.pr{
+    padding-right: 15px;
+}
+.pl8{
+    padding-left: 8px;
+}
+.pt11{
+    padding-top: 11px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.pl35{
+    padding-left: 35px;
+}
+.pt40{
+    padding-top: 40px;
+}
+.pl15{
+    padding-left: 15px;
+}
+.pl25{
+    padding-left: 25px;
+}
+.mgleft17{
+    margin-left: 17px;
+}
+.mgtop25{
+    margin-top: 25px;
+}
+.mgtop10{
+    margin-top: 10px;
+}
+.mgtop15{
+    margin-top: 15px;
+}
+.mgtop30{
+    margin-top: 30px;
+}
+.pd15{
+    padding:15px;
+}
+.pd10{
+    padding:10px;
+}
+.pr10{
+    padding-right: 10px;
+}
+
+. pb40{
+    padding-bottom: 40px;
+}
+.blue {
+    color: #5D9ACD;
+    border:1px solid #5D9ACD;
+}
+.green {
+    color: #55B997;
+    border:1px solid #55B997;
+}
+.purple {
+    color: #D9AEB5;
+    border:1px solid #D9AEB5;
+}
+
+/*==================重用型CSS结束=================*/

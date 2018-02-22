@@ -1,0 +1,18 @@
+.image .image-banner{
+    text-align: center;
+    background: url(../image/austrilia-jianbian.png) no-repeat transparent top;
+
+}
+.image .image-banner p{
+    font-family: 华文仿宋;
+    color: #fff;
+}
+.country-regnant p:first-child a{
+    color: #fff;
+}
+.country-regnant{
+    background:  #66cc99;
+}
+.country-regnant p:first-child{
+    background: url("../image/austrilia-tou.png") no-repeat 1px 1px;
+}

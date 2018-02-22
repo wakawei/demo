@@ -1,0 +1,25 @@
+
+.image{
+    position: relative;
+}
+.image .image-banner{
+    background: url(../image/canada-jianbian.png) no-repeat transparent left 55px;
+}
+.image .image-layout{
+    position: absolute;
+    right: 122px;
+    top: -52px;
+}
+.image .image-banner p{
+    font-family: 华文仿宋;
+    color: #fff;
+}
+.image .image-banner p:first-child{
+    margin-top: 45px;
+}
+.country-regnant{
+    background: #ff6666;
+}
+.country-regnant p:first-child{
+    background: url("../image/canada-tou.png") no-repeat 1px 1px;
+}

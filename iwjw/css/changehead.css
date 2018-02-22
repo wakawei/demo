@@ -1,0 +1,165 @@
+.header{
+    background-color: #FFFFFF;
+    width: 100%;
+    box-shadow: 0px 0px 1px #000000;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #757575;
+}
+.header a{
+    color: #757575;
+    outline: none;
+}
+.header-layout{
+    padding: 5px 40px 0px 40px;
+}
+.logo{
+    display: block;
+    position: relative;
+    top: 5px;
+}
+.logo img{
+    border: 0;
+}
+.logo , .area , .navbar-l{
+
+    float:left ;
+
+}
+.header-left{
+    width: 60%;
+}
+.header-right{
+    width: 40%;
+}
+/*.navbar-l{*/
+    /*margin-bottom: 10px;*/
+/*}*/
+.area{
+    margin-left: 10px;
+}
+
+.left-navbar a{
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+.left-navbar a:hover{
+    border-bottom: 2px solid #BDBDBD;
+    /*color:red;*/
+}
+.left-navbar .selected,
+.left-navbar .selected:hover{
+    border-bottom: 2px solid #E84A01;
+    color: #E84A01;
+}
+.left-navbar li,
+.right-navbar li{
+    /*display: inline-block;*/
+    float: left;
+}
+.area p{
+    font-size: 20px;
+    color: #000000;
+}
+.triangle{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #E84A01;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+.left-navbar{
+    margin-left: 15px;
+}
+.left-navbar,.right-navbar{
+    padding-top: 12px;
+}
+.left-navbar a,
+.right-navbar a
+{
+    padding: 0px 8px 17px 8px;
+}
+.messenger{
+    margin-left: 50px;
+}
+.messenger,
+.navbar-r{
+    /*display: inline-block;*/
+    float: left;
+    padding-left: 30px;
+}
+.right-navbar a:hover{
+    color: #E84A01;
+}
+
+/*公用样式*/
+
+.dropdown{
+    position: relative;
+    padding-right: 10px;
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+
+.dropdown-list{
+    display: none;
+    box-shadow: 0px 0px 1px #000;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: #FFFFFF;
+}
+.dropdown-list:before,
+.dropdown-list:after{
+    display: inline-block;
+    content: "";
+    position: absolute;
+}
+.dropdown-list:before{
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #757575;
+    top: -20px;
+    left: 36%
+}
+
+.dropdown-list:after{
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -18px;
+    left: 36%;
+
+}
+.dropdown-list a{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 19px 10px 10px;
+
+}
+.dropdown-list a:hover{
+    background-color: #DEDEDE;
+    color: #E84A01;
+}
+
+.dropdown p{
+    cursor: pointer;
+    padding: 10px;
+}
+
+/*公用样式结束*/
+
+
+.messenger-list a{
+    width: 100px;
+}
+.messenger-list span{
+    padding-right: 10px;
+}
+

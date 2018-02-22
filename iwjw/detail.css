@@ -1,0 +1,151 @@
+
+
+.detail-head .fs24{
+    margin: 28px 0px 18px;
+    font-size: 24px;
+    color: #484848;
+}
+.mgleft40{
+    margin-left: 40px;
+    display: inline-block;
+}
+
+
+.detail-head img{
+    float: left;
+}
+
+.detail-head-right{
+    height: 401px;
+
+}
+.detail-head-right p:first-child{
+    padding-top:27px;
+
+}
+
+.detail-head-right ul{
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.detail-head-right .relative{
+    position: relative;
+    top: -25px;
+}
+
+.detail-head-right li{
+    padding-top: 13px;
+}
+.detail-head-right .black{
+    color:#000 ;
+}
+.mgtop15{
+    margin-top: 15px;
+}
+
+.mgtop15 span{
+    margin-right: 14px;
+}
+
+.detail-head-right a{
+    font-size: 16px;
+    display: inline-block;
+    width: 123px;
+    height: 35px;
+    line-height: 37px;
+    text-align: center;
+    border:1px solid #E84A01;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 30px;
+    color: #E84A01;
+}
+
+.detail-head-right a:hover,
+a.selectedon{
+    background-color: #E84A01;
+    color: #fff;
+}
+.detail-content{
+    margin-top: 15px;
+}
+ .detail-content-fl{
+     width: 60%;
+ }
+ .detail-content-fr{
+     width:40%;
+ }
+.box1, .box2, .box3, .box4{
+    width: 95%;
+}
+.box1 div{
+    margin-top: 28px;
+}
+.box1 div p+p{
+    margin-top: 25px;
+    
+}
+
+.pdding{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+table{
+    text-align: center;
+}
+caption{
+    padding-bottom: 27px;
+}
+.box2 th{
+    padding-right: 20px;
+}
+.box2 th+th{
+    border-left:1px solid #BDBDBD;
+    padding-left: 15px;
+}
+.box2 td{
+    padding-top: 22px;
+}
+.mgleft185{
+    margin-left: 185px;
+}
+
+.mg30{
+    margin: 30px;
+}
+.mg30 span{
+    margin-bottom: 13px;
+}
+.absolute{
+    position: relative;
+    padding-right: 10px;
+}
+.absolute:after{
+    position: absolute;
+    border-right:1px solid #BDBDBD;
+    border-bottom:1px solid #BDBDBD;
+    transform: rotate(-45deg);
+    width: 5px;
+    height: 5px;
+    content:"";
+    right: 0px;
+    top: 2.5px;
+}
+
+.sidebar{
+    padding: 17px 0px;
+    border-bottom: 1px solid #EDEDED;
+}
+.mgright27{
+    margin-right: 55px;
+}
+.sidebar div p+p{
+    padding-top: 15px;
+}
+
+.border-none{
+    border-bottom: none;
+}

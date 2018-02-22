@@ -1,0 +1,104 @@
+.header{
+    position: relative;
+}
+.header .logo{
+    position: absolute;
+    z-index: 99;
+}
+.logo img{
+    position: absolute;
+    top: 9px;
+    left: 92px;
+}
+.header .login-bar{
+    height: 27px;
+    background: url(../image/login-bg-2.png) repeat-x transparent left top;
+    font-size: 7px;
+}
+.login-bar ul{
+    margin-right: 105px;
+    text-align: right;
+}
+.login-bar ul li{
+    display: inline;
+}
+.login-bar li a{
+    color: #fff;
+    line-height: 27px;
+    padding: 0px 8px;
+}
+.header .top-nav{
+    height: 35px;
+    background: url(../image/导航bg.png) repeat-x transparent left top;
+    position: relative;
+
+}
+.top-nav ul{
+    margin-left: 350px;
+}
+.top-nav  li{
+    float: left;
+    display: inline;
+}
+.top-nav li .top-nav-firstnav{
+    line-height: 35px;
+    padding: 0px 40px;
+    border-left: 1px solid #CCC9C9;
+    font-size: 14px;
+    color: #212121;
+    display: inline-block;
+    height: 35px;
+}
+.top-nav .top-nav-hover .first-item{
+    border-left: none;
+}
+/*.top-nav .top-nav-hover .selected,*/
+.top-nav .top-nav-hover:hover .top-nav-firstnav{
+    background: url(../image/navbga-2.png) repeat-x 0px 1px transparent;
+    color: #fff;
+    box-shadow: 7px 4px 8px rgb(179,179,179);
+}
+.top-nav .country-message{
+    display: none;
+    width: 100%;
+    height: 35px;
+    background: url(../image/navbga-2.png) repeat-x left top transparent;
+    position: absolute;
+    left:0;
+    z-index: 10;
+}
+.top-nav-hover:hover .country-message{
+    display: block;
+}
+.country-message ul{
+    text-align: right;
+    margin-right: 115px;
+    font-size: 11px;
+}
+.country-message li{
+    display: inline;
+    position: relative;
+}
+.country-message .triangle{
+    position: absolute;
+    top: 6px;
+    left: 11px;
+    display: none;
+}
+.country-message li a{
+    color: #fff;
+    line-height: 35px;
+    padding-left: 43px;
+}
+.country-message .on .triangle{
+    display: block;
+}
+/*.country-message .on,*/
+.country-message a:hover
+{
+    color: rgb(197,179,128);
+}
+.country-message a:hover
+.triangle{
+    display:block;
+}

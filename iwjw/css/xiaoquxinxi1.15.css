@@ -1,0 +1,351 @@
+.show-text{
+    color: #757575;
+    font-size: 12px;
+    padding: 10px;
+}
+.show{
+    background-color: #fff;
+}
+
+.show-detail{
+    padding-top:30px;
+    padding-right: 60px;
+    width: 396px\9;
+    font-size: 16px;
+    color: #212121;
+}
+.show-detail-name{
+    font-size: 26px;
+}
+.show-detail-area{
+    font-size: 14px;
+    color: #BDBDBD;
+    padding-top: 11px;
+}
+.show-detail-area .other-name{
+    padding-left: 15px;
+}
+.other-name i{
+    color: #212121;
+}
+.show-detail-message{
+    padding-top: 20px;
+}
+.show-detail-message span+span{
+    padding-left: 24px;
+}
+.show-detail-message i{
+    padding-left: 18px;
+}
+.gre{
+    color: #55B997;
+}
+.show-detail-list{
+    border-top: 1px solid #BDBDBD;
+    margin-top: 15px;
+    padding-top: 16px;
+}
+.show-detail-list>ul>li{
+    color: #757575;
+}
+.show-detail-list>ul>li>i{
+    color: #212121;
+    padding-left: 10px;
+}
+.show-detail-list>ul>li+li{
+   padding-top: 15px;
+}
+.show-detail-list .focus{
+    width: 188px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #E84A01;
+    color: #E84A01;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.house-msg{
+    margin-top: 15px;
+}
+.text{
+    padding: 50px 60px 40px 100px;
+}
+.text .text-title{
+    margin-right: 32px;
+    color: #212121;
+    font-size: 20px;
+ }
+.text .text-detail{
+    width: 86%;
+    line-height: 20px;
+    border-left: 1px solid #dedede;
+    padding-left: 32px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.lists{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.list-items{
+    font-size: 14px;
+    /*display: inline-block;*/
+    border-bottom: 1px solid #DEDEDE;
+    border-top: 1px solid #dedede;
+    width: 100%;
+    height: 47px;
+    background-color: #F7F7F7;
+}
+.list-items a{
+    color: #000000;
+    padding: 0px 24px;
+    display: inline-block;
+    height: 45px;
+    line-height: 44px;
+    border-top: 3px solid #F7F7F7;
+
+}
+.list-items .list-items-on,
+.list-items a:hover{
+    background-color: #FFFFFF;
+    border-top: 3px solid #E84A01;
+
+}
+.list-items li{
+    float: left;
+    line-height: 48px;
+    height: 48px;
+    border-right: 1px solid #DEDEDE;
+}
+.list-items .list-items-lastitem{
+    float: right;
+    border: 1px solid #E84A01;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 6px;
+    color: #E84A01;
+    cursor: pointer;
+}
+
+.list-shows{
+    padding: 40px 65px 50px 90px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.list-shows-left {
+    margin-right: 32px;
+}
+.list-show-left{
+    font-size: 14px;
+    color: #000000;
+    text-align: right;
+}
+.list-show-left li+li{
+    margin-top: 10px;
+}
+.list-show-left li:first-child{
+    font-size: 22px;
+    color: #212121;
+}
+.list-show-left .on{
+    color: #E84A01;
+    margin-top: 17px;
+}
+.list-shows-right{
+    border-left: 1px solid #DEDEDE;
+    position: relative;
+    /*width: 924px;*/
+    width: 88%;
+}
+/*房源展示＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.house-source{
+    padding-bottom: 12px;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 12px;
+}
+.list-show-right-first{
+    border-top: none;
+    padding-top:0;
+}
+
+.list-show-right{
+    margin-left: 32px;
+}
+.list-show-right .changecolor{
+    color:#DEDEDE;
+}
+.house-source li{
+    font-size: 18px;
+    float: left;
+    margin-top: 25px;
+    /*display: inline-block;*/
+    margin-right: 24px;
+    /*vertical-align: middle;*/
+}
+.house-source .house-source-first{
+    margin-top: 0px;
+}
+.house-source-last{
+    font-size: 20px;
+    color: #EE4D00;
+    margin-left: 50px;
+}
+.house-source li i{
+    margin-right: 16px;
+}
+.five-only{
+    color: #78ADCE;
+}
+.school{
+    color:#79B790;
+}
+.subway{
+    color: #AF82C2;
+}
+
+.more{
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    padding: 0;
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+.more span{
+    line-height: 36px;
+    font-size: 14px;
+    color: #212121;
+}
+/*房型展示＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.house-style:before,
+.house-style:after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    top: 40%;
+}
+.house-style:before{
+    border-left: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    transform: rotate(45deg);
+    left: 32px;
+}
+.house-style:after{
+    border-right: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    transform: rotate(-45deg);
+    right: 0px;
+}
+
+
+.house-style li{
+    float: left;
+    margin-right: 45px;
+    position: relative;
+}
+.house-style{
+    margin-left: 92px;
+    width: 892px;
+
+}
+
+.house-style li:last-child{
+    padding-right:  40px;
+}
+.list-show-left .on i:first-child{
+    color: #000000;
+}
+.list-show-left i:last-child{
+    color: #00A282;
+}
+/*成交记录＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.deal-record{
+    /*table-layout: fixed;*/
+    /*width: 880px;*/
+    font-size: 16px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #000000;
+}
+.deal-record td{
+    padding-top: 10px;
+    color: #212121;
+}
+.deal-record .deal-record-last{
+    color: #EE4D00;
+    font-size: 20px;
+
+}
+.deal-record th,
+.deal-record td{
+    width: 100px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.deal-record .deal-record-first,
+.deal-record .deal-record-last{
+    text-align: right;
+}
+.deal-record th+th,
+.deal-record td+td{
+    padding-left: 58px;
+
+}
+.more-detail{
+    text-align: right;
+    color: #212121;
+    font-size: 14px;
+    margin-top: 17px;
+}
+.list-shows-right>img{
+    padding-right: 25px;
+}
+/*推荐房源＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#house-recommend,#house-near{
+    background-color: #fff;
+}
+.house-recommend,.house-near{
+    padding: 30px 65px 15px;
+    margin-bottom: 10px;
+}
+.house-recommend>p,.house-near>p{
+    font-size: 22px;
+    color: #212121;
+}
+.house-recommend-list{
+    margin-top: 25px;
+    margin-right: -15px;
+}
+.house-recommend-list li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+.house-recommend-list p{
+    margin-top: 10px;
+}
+.house-recommend-list li>p{
+    font-size: 16px;
+}
+.house-recommend-list span{
+    color: #E84A01;
+    margin-left: 65px;
+}
+.house-recommend-list li p:nth-child(3){
+  font-size: 14px;
+    color: #000;
+}
+#house-near .house-near-last{
+    font-size: 12px;
+    color: #000;
+}
+.house-recommend-list i{
+    padding: 0px 6px;
+    color: #DEDEDE;
+}

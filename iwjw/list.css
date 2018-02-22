@@ -1,0 +1,308 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+.wrapper{
+    background: #F7F7F7;
+    margin: 0px auto;
+     font-family: sans-serif;
+}
+
+
+
+/*==============content  .list  CSS文件===================*/
+.content {
+    padding-bottom: 20px;
+    margin-top: 1px;
+    clear: both;
+}
+.list{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #212121;
+}
+.list p{
+    font-size: 12px;
+    color: #757575;
+    line-height: 16px;
+    padding: 10px 0px;
+}
+.list .pd35-shad-box{
+    padding: 35px 35px 0px 35px;
+    box-shadow: 0px 0px 1px #000000;
+    background-color:#FFFFFF;
+}
+
+/*list-search*/
+
+.list-search .search{
+    width: 341px;
+    height: 32px;
+    padding-left: 45px;
+    background: url(Imported%20Layers.png) scroll no-repeat transparent 15px center;
+    border: 1px solid #DEDEDE;
+    font-size: 14px;
+}
+.list-search span span{
+    margin-left: 24px;
+    color: #757575;
+}
+.list-search .ps1{
+    position: relative;
+}
+.list-search .ps1:after{
+    border-left: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    position: absolute;
+    right: -15px;
+    top: 2px;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg);
+
+
+}
+.list-search  .ps2{
+    border-left: 1px solid #DEDEDE;
+    background: url(Path%20111.png) no-repeat scroll transparent  right center;
+    padding-left: 24px;
+    padding-right: 15px;
+}
+.mgtop23{
+    margin-top:23px;
+}
+.list-search .list-search-fr {
+    float: right;
+    font-size: 12px;
+}
+.list-search .list-search-fr a{
+    text-decoration: none;
+    border:1px solid #DEDEDE;
+    border-radius: 2px;
+    width: 45px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 15px;
+    color: #757575;
+    cursor: pointer;
+}
+.list-search .gray{
+    background: url(Importedditu%20Layers.png) no-repeat scroll 10px center;
+}
+.list-search .bgc{
+    background: url(Importedliebiao%20Layers.png) no-repeat scroll 10px center;
+
+}
+ .list-search .list-search-fr a:hover,
+ .list-search .on{
+     background-color:#EE4D00;
+     cursor: default;
+     color: #FFFFFF;
+}
+.list-search ul{
+    list-style: none;
+    border-top: 1px dashed #DEDEDE;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.list-search ul li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.list-search li:first-child{
+    color: #BDBDBD;
+}
+
+.list-search ul a{
+    text-decoration: none;
+    color: #212121;
+    display: inline-block;
+    line-height: 24px;
+    border-radius: 2px;
+    text-align: center;
+    /*margin-right: 10px;*/
+}
+.list-search .white-on:visited,
+.list-search .white-on{
+    color: #FFFFFF;
+    background-color: #757575;
+    line-height: 24px;
+    padding: 0px 5px;
+}
+.list-search li a:hover{
+    color:#EE4D00;
+}
+.list-search li .box{
+    width: 43px;
+    height: 32px;
+    border: 1px solid #DEDEDE;
+    border-radius: 2px;
+    position: relative;
+    padding-left: 5px;
+}
+.list-search .hidden{
+    display: none;
+}
+.list-search .box:focus ~.hidden{
+    display:inline-block;
+}
+.list-search input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: 16px;
+}
+
+/*list-item*/
+
+.list-item{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #686E71;
+}
+
+.clear .clear-fl{
+    float:left;
+}
+.clear .clear-fr{
+    float: right;
+    background: url(Imported%20Layers%20Copy.png) no-repeat scroll right center;
+
+}
+span .clear-fr a{
+    margin-left: 32px;
+    text-decoration: none;
+    color: #686E71;
+    margin-right: 20px;
+}
+span .clear-fr a:hover{
+    color: #E84A01;
+}
+.list-item .center{
+    clear: both;
+    border-top: 1px solid #DEDEDE;
+    padding: 5px 0px;
+}
+.list-item .mgtop30{
+    margin-top: 30px;
+}
+.list-item .center-top{
+    display: inline-block;
+    margin-left: 24px;
+}
+.list-item .center-top .fs18b{
+    font-size: 18px;
+    color: #212121;
+    margin-right: 40px;
+}
+.center-top p:first-child span+span{
+    border-right: 1px solid #979797;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.center-top p:first-child span:last-child{
+    border: none;
+    color: #E84A01;
+    font-size: 24px;
+}
+.center-top p:first-child span i{
+    font-size: 14px;
+    color: #979797;
+    font-style: normal;
+}
+.center-top p:nth-child(2){
+    font-size: 14px;
+    clear: both;
+    background: url(Importedditu%20Layers.png) no-repeat scroll left center transparent;
+}
+.center-top p:nth-child(2) span:first-child{
+    padding-left: 20px;
+}
+.center-top p:nth-child(2) span:last-child{
+    float: right;
+    margin-right: 15px;
+}
+.center-top p:nth-child(3){
+    font-size: 14px;
+    clear: right;
+    background: url(Fill%202.png) no-repeat scroll left center transparent;
+    padding-left: 20px;
+}
+.center-top p:last-child{
+    font-size: 15.4px;
+}
+.center-top p:last-child span{
+    margin-right: 16px;
+}
+.center-top .blue{
+    color: #78ADCE;
+}
+.center-top .green{
+    color: #79B790;
+}
+.center-top .purple{
+    color: #AF82C2;
+}
+
+.center ul{
+    list-style: none;
+    text-align: center;
+    padding: 15px 0px;
+
+}
+.center ul li{
+    display: inline;
+    margin: 5px;
+}
+.center ul a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #979797;
+    display: inline-block;
+    line-height: 30px;
+    color: #212121;
+    border-radius: 2px;
+}
+
+.center .on:visited,
+.center .on{
+    border-color: #E84A01;
+}
+.center ul a:hover{
+    border-color: #000000;
+}
+.center .triangle-l{
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right:10px solid #000000;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+}
+.center .triangle-r{
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left:10px solid #000000;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+}
+.footer{
+    height: 200px;
+    background-color: grey;
+}

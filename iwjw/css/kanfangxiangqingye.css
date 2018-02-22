@@ -1,0 +1,113 @@
+.pstion1{
+    position:relative;
+
+}
+.pstion1:after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    transform:rotate(-45deg);
+}
+.dash{
+    border-top: 1px dashed #979797;
+    margin-top: 30px;
+    position: relative;
+}
+.dash:before{
+    content:"待看房";
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #F7F7F7;
+    z-index: 2;
+    top:-15px;
+}
+
+.h300{
+    height: 300px;
+}
+.pd35{
+    padding:35px 35px 35px 0px;
+}
+.borderl{
+    border-left:6px solid #00A282;
+}
+.w30{
+
+    width: 30%;
+}
+.borderl>p{
+    padding-left: 35px;
+}
+.w70{
+    width: 70%;
+}
+.bgcf7{
+    background-color: #F7F7F7;
+    height: 120px;
+
+}
+.pstion2{
+    position: relative;
+}
+.pstion2:after{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-top:1px solid #BDBDBD;
+    border-right: 1px solid #BDBDBD;
+    transform:rotate(-45deg);
+    margin-left: 10px;
+
+}
+.pstion3{
+    position: relative;
+}
+.pstion4{
+    position: absolute;
+    right: 30px;
+    bottom: 33px;
+}
+
+.borderl2{
+    border-left: 6px solid #404DD0;
+}
+.borderl2>p{
+    padding-left: 35px;
+}
+.dash2{
+    border-top: 1px dashed #979797;
+    margin-top: 30px;
+    position: relative;
+}
+.dash2:before{
+    content:"待评价";
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #F7F7F7;
+    z-index: 2;
+    top:-15px;
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+
+.image .image-banner{
+    background: url(../image/other-jianbian.png) repeat-x transparent left top;
+
+}
+.country-regnant{
+    color: #fff;
+    background:  #333366;
+}
+.country-regnant p:first-child a{
+    color: #fff;
+}
+.country-regnant p:first-child{
+    background: url("../image/other-tou.png") no-repeat left top;
+}

@@ -1,0 +1,92 @@
+.message{
+    padding: 30px 60px 0px 93px;
+}
+.image .image-banner{
+    top: 60px;
+    left: 122px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.image-banner p:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.image-banner p:last-child{
+    font-size: 30px;
+    margin-left: 70px;
+}
+.left-bar,
+.left-bar a {
+    font-size: 14px;
+    line-height: 30px;
+    color: #212121;
+}
+.left-bar p{
+    font-size: 16px;
+}
+.left-bar ul{
+    margin-left: 15px;
+    margin-bottom: 65px;
+}
+.left-bar .on,
+.left-bar a:hover{
+    color: #ff9900;
+}
+.country-regnant{
+    width: 869px;
+    height: 235px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px #868383;
+    font-size: 14px;
+    color: #212121 ;
+    text-align: center;
+}
+.country-regnant p:first-child{
+    font-weight: bold;
+    line-height: 92px;
+    font-size: 30px;
+    color: #fff;
+    height: 92px;
+    position: relative;
+}
+.country-regnant p:first-child a{
+    font-size: 14px;
+    color: #333366;
+    position: absolute;
+    right: 52px;
+    top: 15px;
+}
+.country-regnant p:last-child{
+    padding: 17px 125px 0px 125px ;
+    line-height: 20px;
+}
+
+.yueyang-active{
+    margin-bottom: 20px;
+    margin-right: -30px;
+}
+.yueyang-active-detail{
+    width: 422px;
+    height: 415px;
+    border: 1px solid #bdbdbd;
+    display: inline-block;
+    margin-right: 20px;
+    color: #333333;
+}
+.yueyang-active-detail >div{
+    padding: 5px;
+}
+.yueyang-active-detail >div p{
+    margin-top: 10px;
+}
+.yueyang-active-detail-title{
+    font-size: 18px;
+    text-align: center;
+}
+.yueyang-active-detail-text{
+    font-size: 12px;
+    line-height: 24px;
+}

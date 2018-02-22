@@ -1,0 +1,75 @@
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝内容  css＝＝＝＝＝＝＝＝＝＝＝--*/
+
+
+.content .content-message{
+    padding: 0px 61px 0px 93px;
+}
+.more-message{
+    margin-right: -70px;
+}
+
+.more-message-detail{
+    text-align: center;
+    width: 219px;
+    float: left;
+    margin-right: 70px;
+}
+.more-message-detail .introduce{
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #989898;
+}
+.more-message-detail .title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.more-message-detail p{
+    margin-top: 19px;
+}
+.more-message-detail a img{
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.content-message .banner{
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    width: 1127px;
+    height: 192px;
+}
+.yueyang-information{
+    min-height: 255px;
+    width: 1127px;
+}
+.yueyang-information input{
+    line-height: 30px;
+    width: 265px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #dedede;
+    font-size: 12px;
+    box-shadow: inset 0px 0px 10px #dedede;
+    padding-left: 15px;
+}
+.yueyang-information li a{
+    width: 260px;
+    margin-right: 2px;
+}
+.yueyang-new .yueyang-new-detail{
+    width: 765px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
